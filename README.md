@@ -32,16 +32,9 @@ Examples of real life data machine learning projects to showcase my programming 
 *
 *
 *
-*
-*
-*
+
 ---
 # [PROJECT 5: DECOMPOSING THE DIFFERENCE IN EXPECTED: Project Overview](https://github.com/HermannJoel/Finance/tree/main/Inflation_Expectation)
+
 *
-*
-*
-*
-*
-*
-*
-*
+
