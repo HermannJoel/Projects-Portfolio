@@ -1,7 +1,7 @@
 # Projects-Portfolio
 Examples of real life data machine learning projects to showcase my programming and data science skills 
 
-#[PROJECT 1: BULLDOZER SALE PRICE PREDICTION USING LINEAR REGRESSION: Project Overview](https://github.com/HermannJoel/Finance/tree/main/Bulldozer%20Sale%20Price%20Prediction)
+# [PROJECT 1: BULLDOZER SALE PRICE PREDICTION USING LINEAR REGRESSION: Project Overview](https://github.com/HermannJoel/Finance/tree/main/Bulldozer%20Sale%20Price%20Prediction)
 *
 *
 *
