@@ -63,6 +63,8 @@ Examples of real life data machine learning projects to showcase my programming 
 ![RandomForestVsRidge](https://github.com/HermannJoel/Data_Scientist/blob/master/Pictures/Results1.png)
 
 -With the second method, I implemented a RandomForestRegressor with all features and compared the MSE and MAE with the previous models.The Ridge will all attribute achieved
- a MSE=22.99 and R^2= 15.74   
-![RandomForestVsRidge](https://github.com/HermannJoel/Data_Scientist/blob/master/Pictures/Results2.png)   
+ a MSE=22.99 and R^2= 15.74. 
+ 
+![RandomForestVsRidgeVsRidgeAll](https://github.com/HermannJoel/Data_Scientist/blob/master/Pictures/Results2.png)
+
 ---
