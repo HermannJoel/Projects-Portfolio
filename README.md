@@ -56,14 +56,13 @@ Examples of real life data machine learning projects to showcase my programming 
   attribute have a lot of missing values. In order to use such participant attribute in our model, we have to filter our data set by UserId; our final data set contains only
   17,000+ examples.  
 * After preprocessing the data and do some features engineering, I employed 2 methods
-  - The 1st method consisted at implementing with R a stepwise selection. From 200+ attributes only 60 appeared to be usefull
+  -The 1st method consisted at implementing with R a stepwise selection. From 200+ attributes only 60 appeared to be usefull
 * I used a pipe line to find the best parameters of 2 models simustaneously namely DecisionTreeRegressor and RandomForestRegressor 
 * Then compared the MSE of the RandomForestRegressor with a Ridge regression MSE
   ![RandomForestVsRidge](https://github.com/HermannJoel/Data_Scientist/blob/master/Pictures/Results1.png)
   
   RandomForest MSE < Ridge MSE. The RandomForest achieved a slightly lower MSE=22.11 and a higher R^2=12.13 on the testing data than the Ridge MSE=22.31 R^2=11.35  
-  - With the second method, I implemented a RandomForestRegressor with all features and compared the MSE and MAE with the previous models    
+  -With the second method, I implemented a RandomForestRegressor with all features and compared the MSE and MAE with the previous models    
   ![RandomForestVsRidge](https://github.com/HermannJoel/Data_Scientist/blob/master/Pictures/Results2.png)
-  
   The Ridge will all attribute achieved a MSE=22.99 and R^2= 15.74   
 ---
