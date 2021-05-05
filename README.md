@@ -62,11 +62,11 @@ Examples of real life data machine learning projects to showcase my programming 
 * I used a pipe line to find the best parameters of 2 models simustaneously, tha DecisionTreeRegressor and RandomForestRegressor 
 * Compared the MSE of the RandomForestRegressor with a Ridge regression MSE
   RandomForest MSE < Ridge MSE. The RandomForest achieved a slightly lower MSE=22.11 and a higher R^2=12.13 on the testing data than the Ridge MSE=22.31 R^2=11.35
-![RandomForestVsRidge](https://github.com/HermannJoel/Data_Scientist/blob/master/Pictures/Results1.png)
+![RandomForestVsRidge](/Pictures/Results1.png)
 
 -With the second method, I implemented a RandomForestRegressor with all features and compared the MSE and MAE with the previous models results.The Ridge regression will all attribute yielded MSE=22.99 and R^2= 15.74. 
  
-![RandomForestVsRidgeVsRidgeAll](https://github.com/HermannJoel/Data_Scientist/blob/master/Pictures/Results2.png)
+![RandomForestVsRidgeVsRidgeAll](/Pictures/Results2.png)
 
 * Features Inflation, Deflation, Loan12m:Much Harder and College appear to be most usefull features at predicting inflation.
 ---
