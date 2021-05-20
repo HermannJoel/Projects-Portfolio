@@ -3,13 +3,20 @@ Examples of real life data machine learning projects to showcase my programming 
 
 # [PROJECT 1: BULLDOZER SALE PRICE PREDICTION USING LINEAR REGRESSION: Project Overview](https://github.com/HermannJoel/Finance/tree/main/Bulldozer%20Sale%20Price%20Prediction)
 
-* The techniques used in here have been inspired and adapted from [Mrbourke](https://github.com/mrdbourke)
-* Created a regression model that predict the future sale price of a bulldozer based given its
+ The techniques used in here have been inspired and adapted from [Mrbourke](https://github.com/mrdbourke)
+
+## Problem Definition
+
+  Created a regression model that predict the future sale price of a bulldozer based given its
   characteristics and previous examples of how much similar bulldozers have been sold for.
-* There are 3 datasets:
+## Data:
+
+  There are 3 datasets:
   Train.csv - Historical bulldozer sales examples up to 2011 (close to 400,000 examples with 50+ different attributes, including SalePrice which is the target variable).
   Valid.csv - Historical bulldozer sales examples from January 1 2012 to April 30 2012 (close to 12,000 examples with the same attributes as Train.csv).
   Test.csv - Historical bulldozer sales examples from May 1 2012 to November 2012 (close to 12,000 examples but missing the SalePrice attribute, as this is what we'll be trying    to predict).
+## Techniques:
+
 * The main performance metric is the RMSLE(Rot Mean Squarred Log Error)  
 * Find Hypertuning parameter using RandomizedSearchcv
 * Trained and test the model with sales data up to 2011 and validated the model with sales data from May 1
@@ -22,8 +29,12 @@ Examples of real life data machine learning projects to showcase my programming 
 
 # [PROJECT 2: DECOMPOSING THE DIFFERENCE IN EXPECTED INFLATION: Project Overview](https://github.com/HermannJoel/Finance/tree/main/Inflation_Expectation)
 
-* For this project I built regression models to predict the inflation. This could be usefull for a asset
-  manager who is managing a portfolio sentitive to Inflation.
+## Problem Definition:
+
+ For this project I built regression models to predict the inflation. This could be usefull for a asset
+ manager who is managing a portfolio sentitive to Inflation.
+ ## Data:
+
 * The data set is from the FED NY Survey of Expected Inflation
 * The original data set can be download here [NYFED](https://www.newyorkfed.org/microeconomics/sce#/) and
   contains two sets
@@ -34,6 +45,8 @@ Examples of real life data machine learning projects to showcase my programming 
   Complete Microdata 2017-2019.csv - Survey participants attributes examples from January 1 2017 to Dec 30 2019 (close to 170,000 examples with the same attributes as
   Complete Microdata 2013-2016.csv).
 * A description of the questionnaire and the name of different attribute can be found here.[Questionnaire](https://www.newyorkfed.org/medialibrary/interactives/sce/sce/downloads/data/frbny-sce-survey-core-module-public-questionnaire.pdf).
+
+## Techniques:
 
 * The main performance metric is the MSE(Mean Squarred Error)
 * Out of 400,000 examples, only 17,000+ have unique userid, participant responded to question regarding 
@@ -75,9 +88,43 @@ Examples of real life data machine learning projects to showcase my programming 
 
 # [PROJECT 5: CREDIT RISK MODELLING: Project Overview](https://github.com/HermannJoel/Finance/tree/main/Credit_Risk_Modeling)
 
-* Overview
+## Problem definition: 
+  Given a borrower's characteristics, can we predict its probability of default, LGD , EAD and the whole portfolio loans EL 
 
+## Data: 
+  We use the lending club data set provided by Kaggle.The original data set can be found here https://www.kaggle.com/wordsforthewise/lending-club
+  close to 466285  examples with 75 different attributes including `loan Status`, `Recovery` That will be our target variables respectivelly for for our PD and LGD model
 
+## Techniques:
+ 
+### Data preprocessing: 
 
+* Fine classing
+* Coarse classing
+* Weight Of Evidence
+* Information Value
+
+  `PD`(probability of defaultor probability of a customer not repaying their debt) using a Logistic regression
+
+  `EAD`(Exposure at Default: show the proportion of an exposure a company loses when a customer default)
+   Using a linear regression
+
+  `LGD`(Lost Given Default: The toatl amount a bank is expose to if a customer default) using a linear regression
+
+  With the `PD`, `EAD`, `LGD` we derive a scorecard with a threshold of 75%
+
+* For our PD Model, The variable loan Status will be our target. The model will predict a customer's PD 
+  notably whether he has defaulted or not giving certains features.
+
+* For the LGD Model. We need to calculate how much of a loan was recovered after the borrower had defaulted.
+   To do so, our target will be the variable Recovery.
+
+* For the EAD Model, We have to calculate the total exposure at the moment the borrower defaulted compared to
+  the total exposure in the past. The target will be the total recovery principal variable will be our target for this Model.
+
+### Maintain credit risk Model:
+
+ We calculate the Population Stability Index
+ 
 ---
 
