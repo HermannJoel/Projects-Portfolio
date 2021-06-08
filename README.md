@@ -1,5 +1,5 @@
 # Projects-Portfolio
-Examples of real life data machine learning projects to showcase my programming and data science skills 
+Examples of real life data machine learning projects 
 
 # [PROJECT 1: BULLDOZER SALE PRICE PREDICTION USING LINEAR REGRESSION: Project Overview](https://github.com/HermannJoel/Finance/tree/main/Bulldozer%20Sale%20Price%20Prediction)
 
@@ -7,7 +7,7 @@ Examples of real life data machine learning projects to showcase my programming 
 
 ## Problem Definition
 
-  Created a regression model that predict the future sale price of a bulldozer based given its
+  Created a regression model that predict the future sale price of a bulldozer given its
   characteristics and previous examples of how much similar bulldozers have been sold for.
 ## Data:
 
@@ -31,7 +31,7 @@ Examples of real life data machine learning projects to showcase my programming 
 
 ## Problem Definition:
 
- For this project I built regression models to predict the inflation. This could be usefull for a asset
+ Built regression models to predict US inflation. This could be usefull for a asset
  manager who is managing a portfolio sentitive to Inflation.
  ## Data:
 
@@ -49,13 +49,11 @@ Examples of real life data machine learning projects to showcase my programming 
 ## Techniques:
 
 * The main performance metric is the MSE(Mean Squarred Error)
-* Out of 400,000 examples, only 17,000+ have unique userid, participant responded to question regarding 
-  attribute as Education Level or Sex only once. Consequently, similar
-  attribute have a lot of missing values. In order to use such participant attribute in our model, we have to filter our data set by userid; our final data set contains only
-  17,000+ examples.  
+* Out of 400,000 examples, only 17,000+  heave unique userid. In order to use all attribute in our model, we
+    should filter our data set by userid; our final data set contains only 17,000+ examples.  
 * A was able to predict inflation using 2 methods
-* 1st method: I implemented with R a stepwise selection, Only 60 appeared to be usefull
-* I used a pipe line to find the best parameters of 2 models simustaneously, tha DecisionTreeRegressor and
+* 1st method: Implemented with R a stepwise selection, Only 60 attributes appeared to be usefull
+* Used a pipeline to find the best parameters of 2 models simustaneously, tha DecisionTreeRegressor and
   RandomForestRegressor 
 * Compared the MSE of the RandomForestRegressor with a Ridge regression MSE
   RandomForest MSE < Ridge MSE. The RandomForest achieved a slightly lower MSE=22.11 and a higher R^2=12.13 on the testing data than the Ridge MSE=22.31 R^2=11.35
@@ -64,7 +62,7 @@ Examples of real life data machine learning projects to showcase my programming 
 
 * 2nd method: I implemented a RandomForestRegressor with all features and compared the MSE and MAE with the previous models results.
 * Features Inflation, Deflation, Loan12m:Much Harder and College appear to be most usefull features at predicting inflation.
-* The Ridge regression will all attribute yielded MSE=22.99 and R^2= 15.74.
+* The Ridge regression with all attributes yielded MSE=22.99 and R^2= 15.74.
   
 ![](/Images/Results2.png)
 
@@ -88,7 +86,8 @@ Examples of real life data machine learning projects to showcase my programming 
 
 # [PROJECT 5: CREDIT RISK MODELLING: Project Overview](https://github.com/HermannJoel/Finance/tree/main/Credit_Risk_Modeling)
 
-## Problem definition: 
+## Problem definition:
+
   Given a borrower's characteristics, can we predict its probability of default, LGD , EAD and the whole portfolio loans EL 
 
 ## Data: 
@@ -104,14 +103,14 @@ Examples of real life data machine learning projects to showcase my programming 
 * Weight Of Evidence
 * Information Value
 
-  `PD`(probability of defaultor probability of a customer not repaying their debt) using a Logistic regression
+  `PD`(probability of default or probability of customers not repaying their debt) using a Logistic regression
 
   `EAD`(Exposure at Default: show the proportion of an exposure a company loses when a customer default)
-   Using a linear regression
+   using a linear regression
 
   `LGD`(Lost Given Default: The toatl amount a bank is expose to if a customer default) using a linear regression
 
-  With the `PD`, `EAD`, `LGD` we derive a scorecard with a threshold of 75%
+  With the `PD`, `EAD`, `LGD` we derive a scorecard with a threshold of .75
 
 * For our PD Model, The variable loan Status will be our target. The model will predict a customer's PD 
   notably whether he has defaulted or not giving certains features.
@@ -124,7 +123,7 @@ Examples of real life data machine learning projects to showcase my programming 
 
 ### Maintain credit risk Model:
 
- We calculate the Population Stability Index
+ The Population Stability Index is calculated in order to maintain our model.
  
 ---
 
