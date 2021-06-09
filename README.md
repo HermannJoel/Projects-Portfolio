@@ -123,7 +123,7 @@ Examples of real life data machine learning projects
 
 ### Maintain credit risk Model:
 
- The Population Stability Index is calculated in order to maintain our model.
+ The Population Stability Index is calculated to maintain our model.
  
 ---
 
