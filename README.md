@@ -9,7 +9,7 @@ Examples of real life data machine learning projects
 
   Created a regression model that predict the future sale price of a bulldozer given its
   characteristics and previous examples of how much similar bulldozers have been sold for.
-## Data:
+## Data: 
 
   There are 3 datasets:
   Train.csv - Historical bulldozer sales examples up to 2011 (close to 400,000 examples with 50+ different attributes, including SalePrice which is the target variable).
