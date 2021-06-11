@@ -9,6 +9,7 @@ Examples of real life data machine learning projects
 
   Created a regression model that predict the future sale price of a bulldozer given its
   characteristics and previous examples of how much similar bulldozers have been sold for.
+
 ## Data: 
 
   There are 3 datasets:
@@ -39,12 +40,11 @@ Examples of real life data machine learning projects
 * The original data set can be download here [NYFED](https://www.newyorkfed.org/microeconomics/sce#/) and
   contains two sets
 
-  Complete Microdata 2013-2016.csv - Survey participants attributes examples up to 2016 (close to 250,000 examples with 260+ different attributes, including mean
-  expected inflation which is the target variable).
+  Complete Microdata 2013-2016.csv - Survey participants attributes examples up to 2016 (close to 250,000 examples with 260+ different attributes, including mean expected inflation which is the target variable).
   
-  Complete Microdata 2017-2019.csv - Survey participants attributes examples from January 1 2017 to Dec 30 2019 (close to 170,000 examples with the same attributes as
-  Complete Microdata 2013-2016.csv).
-* A description of the questionnaire and the name of different attribute can be found here.[Questionnaire](https://www.newyorkfed.org/medialibrary/interactives/sce/sce/downloads/data/frbny-sce-survey-core-module-public-questionnaire.pdf).
+  Complete Microdata 2017-2019.csv - Survey participants attributes examples from January 1 2017 to Dec 30 2019 (close to 170,000 examples with the same attributes as Complete Microdata 2013-2016.csv).
+
+* A description of the questionnaire and the name of different attribute can be found here.[Questionnaire](https://www.newyorkfed.org/medialibrary/interactives/sce/sce/downloads/datafrbny-sce-survey-core-module-public-questionnaire.pdf).
 
 ## Techniques:
 
@@ -90,8 +90,10 @@ Examples of real life data machine learning projects
 
   Given a borrower's characteristics, can we predict its probability of default, LGD , EAD and the whole portfolio loans EL 
 
-## Data: 
+## Data:
+
   We use the lending club data set provided by Kaggle.The original data set can be found here https://www.kaggle.com/wordsforthewise/lending-club
+
   close to 466285  examples with 75 different attributes including `loan Status`, `Recovery` That will be our target variables respectivelly for for our PD and LGD model
 
 ## Techniques:
@@ -108,12 +110,12 @@ Examples of real life data machine learning projects
   `EAD`(Exposure at Default: show the proportion of an exposure a company loses when a customer default)
    using a linear regression
 
-  `LGD`(Lost Given Default: The toatl amount a bank is expose to if a customer default) using a linear regression
+  `LGD`(Lost Given Default: The total amount a bank is expose to if a customer default) using a linear regression
 
   With the `PD`, `EAD`, `LGD` we derive a scorecard with a threshold of .75
 
 * For our PD Model, The variable loan Status will be our target. The model will predict a customer's PD 
-  notably whether he has defaulted or not giving certains features.
+  notably whether he has defaulted or not giving certain features.
 
 * For the LGD Model. We need to calculate how much of a loan was recovered after the borrower had defaulted.
    To do so, our target will be the variable Recovery.
