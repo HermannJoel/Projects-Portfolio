@@ -3,7 +3,7 @@ Examples of real life data machine learning projects
 
 ---
 
-# [PROJECT 2: DECOMPOSING THE DIFFERENCE IN EXPECTED INFLATION: Project Overview](https://github.com/HermannJoel/Finance/tree/main/Inflation_Expectation)
+# [PROJECT 1: DECOMPOSING THE DIFFERENCE IN EXPECTED INFLATION: Project Overview](https://github.com/HermannJoel/Finance/tree/main/Inflation_Expectation)
 
 ## Problem Definition:
 
@@ -40,21 +40,5 @@ Examples of real life data machine learning projects
 * The Ridge regression with all attributes yielded MSE=22.99 and R^2= 15.74.
 
 ![](/Images/Results2.png)
-
-
-# [PROJECT 3: CRM CUSTOMERS CLUSTERING USING PCA and K-MEANS: Project Overview](https://github.com/HermannJoel/Finance/tree/main/Customers%20Clustering%20using%20K-Means)
-
-* Overview
-* Created PowerBi daschboard to showcase the different cluster
-
-[PowerBi dashboard clusters](https://github.com/HermannJoel/Finance/blob/main/Customers%20Clustering%20using%20K-Means/Customers_Clusters_Dashboard.pbix)
-
----
-# [PROJECT 4: BANK CUSTOMERS CHURN PREDICTION USING LOGISTIC REGRESSION: Project Overview](https://github.com/HermannJoel/Finance/tree/main/Bank_Customers_Churn_Prediction)
-
-* Overview
-* Created PowerBi daschboard to showcase the different cluster
-
-[PowerBi dashboard clusters](https://github.com/HermannJoel/Finance/blob/main/Bank_Customers_Churn_Prediction/Bank_Customers_Churn.pbix)
 
 ---
