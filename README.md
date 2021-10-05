@@ -1,7 +1,6 @@
 # Projects-Portfolio
 Examples of real life data machine learning projects
 
----
 
 # [PROJECT 1: DECOMPOSING THE DIFFERENCE IN EXPECTED INFLATION: Project Overview](https://github.com/HermannJoel/Finance/tree/main/Inflation_Expectation)
 
@@ -40,5 +39,3 @@ Examples of real life data machine learning projects
 * The Ridge regression with all attributes yielded MSE=22.99 and R^2= 15.74.
 
 ![](/Images/Results2.png)
-
----
