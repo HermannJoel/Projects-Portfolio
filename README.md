@@ -38,6 +38,6 @@ Examples of real life data machine learning projects
 
 * 2nd method: I implemented a RandomForestRegressor with all features and compared the MSE and MAE with the previous models results.
 - Features Inflation, Deflation, Loan12m:Much Harder and College appear to be most usefull features at predicting inflation.
-- The Ridge regression with all attributes yielded MSE=22.99 and `$$R^2= 15.74$$`.
+- The Ridge regression with all attributes yielded MSE=22.99 and $$R^2= 15.74$$.
 
 ![](/Images/Results2.png)
