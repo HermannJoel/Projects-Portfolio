@@ -4,11 +4,11 @@ Examples of real life data machine learning projects
 
 #### [PROJECT 1: DECOMPOSING THE DIFFERENCE IN EXPECTED INFLATION: Project Overview](https://github.com/HermannJoel/Finance/tree/main/Inflation-Expectation-Prediction/src)
 
-##### Problem Definition:
+##### 1.Problem Definition
 
  Built regression models to predict US inflation. This can be usefull for an asset
  manager who is managing a portfolio sentitive to Inflation.
- ##### Data:
+##### 2.Data
 
 The Original data set is the FED NY Survey of Expected Inflation. It can be download here [NYFED](https://www.newyorkfed.org/microeconomics/sce#/) and contains 3 sets.
 
@@ -20,22 +20,26 @@ The Original data set is the FED NY Survey of Expected Inflation. It can be down
 
 A description of the questionnaire and the name of the differents attributes can be found here.[Questionnaire](https://www.newyorkfed.org/medialibrary/interactives/sce/sce/downloads/datafrbny-sce-survey-core-module-public-questionnaire.pdf).
 
-##### Techniques:
+##### 3.Techniques
 
-* The main performance metric is the MSE(Mean Squarred Error)
-  Out of 400,000+ examples, only 17,000+  heave unique userid. In order to use all attributes in our model, we
-    should filter our data set by userid. The final data set contains only 17,000+ examples.  
-- predicted inflation using 2 methods
+* The main performance metric is the MSE(Mean Squarred Error).
+ Out of 400,000+ examples, only 17,000+  heave unique userid. In order to use all attributes in our model, we 
+ should filter our data set by userid. The final data set contains only 17,000+ examples.
+ 
+* The target variable is a continiuos variable. It requires regression models. 
 
-- 1st method: Implemented with R a stepwise selection, Only 60 attributes appeared to be usefull
-  - Used a pipeline to find the best parameters of 2 models simustaneously, tha DecisionTreeRegressor and RandomForestRegressor
-  - Compared the MSE of the RandomForestRegressor with a Ridge regression MSE RandomForest MSE < Ridge MSE. The RandomForest achieved a slightly lower `MSE=22.11` and a higher `$$R^2$$=12.13` on the test set than the Ridge `MSE=22.31` `$$R^2$$=11.35`
+We will implement 8 diffrents machine learning algorythms:`decision tree`, `random forest`, `Ridge`, `adaboostRegressor`, `lightgbmRegressor`, `GradientBoostingRegressor`, `XGBRegressor`, `CatBoost`.
 
-![](/Images/Results1.png)
+##### 4.Implementation
+* After data cleansing and features engineering, the final data set contains ~ 15799 observations and 160 variables.
+* In R, I run a stepwise selection to select only important varaiables, 94 variables out of 160 appeared to be important at predicting inflation.
+* Use a GridSearchCV to search for optimal parameters.
 
-- 2nd method: I implemented a RandomForestRegressor with all features and compared the MSE and MAE with the previous models results.
+##### 5.Results
+* Catboost regressor yielded de lowest Mean Squarred Error. `$MSE=26.89$`,  `$MAE=3.29$` and `$R^2=12.29$`
 
-  - Features Inflation, Deflation, Loan12m:Much Harder and College appear to be most usefull features at predicting inflation.
-  - The Ridge regression with all attributes yielded MSE=22.99 and `$$R^2$$=15.74`.
+![](/Images/Results.png)
 
-![](/Images/Results2.png)
+* Features Deflation i.e. peoples who expet an Deflation and thefeature College i.e. participants that with an educationnal background equal or higher than college appear to be most usefull features at predicting inflation.
+
+![](/Images/features-importance-catboost.png)
