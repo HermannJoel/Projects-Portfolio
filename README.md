@@ -28,7 +28,7 @@ A description of the questionnaire and the name of the differents attributes can
  
 * The target variable is a continiuos variable. It requires regression models. 
 
-We will implement 8 diffrents machine learning algorythms:`decision tree`, `random forest`, `Ridge`, `adaboostRegressor`, `lightgbmRegressor`, `GradientBoostingRegressor`, `XGBRegressor`, `CatBoost`.
+We will implement 8 diffrents machine learning algorythms:`decisiontreeRegressor`, `randomforestRegressor`, `Ridge Regression`, `adaboostRegressor`, `lightgbmRegressor`, `GradientBoostingRegressor`, `XGBRegressor`, `CatBoostRegressor`.
 
 ##### 4.Implementation
 * After data cleansing and features engineering, the final data set contains ~ 15799 observations and 160 variables.
