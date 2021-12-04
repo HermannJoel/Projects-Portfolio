@@ -18,7 +18,7 @@ The Original data set is the FED NY Survey of Expected Inflation. It can be down
   
 * Complete Microdata 20-present.csv - Survey participants attributes examples from January 2020 to June 2020 (close to 7,713 examples with the same attributes as the 2 previous data sets)
 
-A description of the questionnaire and the name of the differents attributes can be found here.[Questionnaire](https://www.newyorkfed.org/medialibrary/interactives/sce/sce/downloads/datafrbny-sce-survey-core-module-public-questionnaire.pdf).
+A description of the questionnaire and the name of the differents attributes can be found here.[Questionnaire](https://www.newyorkfed.org/medialibrary/interactives/sce/sce/downloads/data/frbny-sce-survey-core-module-public-questionnaire.pdf).
 
 ##### 3.Techniques
 
