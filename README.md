@@ -37,12 +37,15 @@ We will implement 8 diffrents machine learning algorythms:`decision tree`, `rand
 
 ##### 5.Results
 * Catboost regressor yielded de lowest Mean Squarred Error. 
-* <img src="https://render.githubusercontent.com/render/math?math=MSE=26.89">.  
-* <img src="https://render.githubusercontent.com/render/math?math=MAE=3.29">.
+
+
+<img src="https://render.githubusercontent.com/render/math?math=MSE=26.89">. 
+
+<img src="https://render.githubusercontent.com/render/math?math=MAE=3.29">.
 
 and 
 
-* <img src="https://render.githubusercontent.com/render/math?math=R^2=12.29">.
+<img src="https://render.githubusercontent.com/render/math?math=R^2=12.29">.
 
 ![](/Images/results.png)
 
