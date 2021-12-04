@@ -38,7 +38,7 @@ We will implement 8 diffrents machine learning algorythms:`decision tree`, `rand
 ##### 5.Results
 * Catboost regressor yielded de lowest Mean Squarred Error. `$MSE=26.89$`,  `$MAE=3.29$` and `$R^2=12.29$`
 
-![](/Images/Results.png)
+![](/Images/results.png)
 
 * Features Deflation i.e. peoples who expet an Deflation and thefeature College i.e. participants that with an educationnal background equal or higher than college appear to be most usefull features at predicting inflation.
 
