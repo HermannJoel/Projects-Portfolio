@@ -36,7 +36,7 @@ We will implement 8 diffrents machine learning algorythms:`decision tree`, `rand
 * Use a GridSearchCV to search for optimal parameters.
 
 ##### 5.Results
-* Catboost regressor yielded de lowest Mean Squarred Error. $MSE=26.89$,  `$MAE=3.29$` and `$R^2=12.29$`
+* Catboost regressor yielded de lowest Mean Squarred Error. $$MSE=26.89$$,  `$MAE=3.29$` and `$R^2=12.29$`
 
 ![](/Images/results.png)
 
