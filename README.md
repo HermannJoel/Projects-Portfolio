@@ -53,4 +53,4 @@ and
 
 * Features Deflation i.e. peoples who expet an Deflation and thefeature College i.e. participants that with an educationnal background equal or higher than college appear to be most usefull features at predicting inflation.
 
-![](/Images/features-importance-catboost.png)
+![](/Images/features-importance.png)
