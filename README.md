@@ -47,6 +47,8 @@ and
 
 <img src="https://render.githubusercontent.com/render/math?math=R^2=12.29">.
 
+![](/Images/mse.png)
+
 ![](/Images/results.png)
 
 * Features Deflation i.e. peoples who expet an Deflation and thefeature College i.e. participants that with an educationnal background equal or higher than college appear to be most usefull features at predicting inflation.
