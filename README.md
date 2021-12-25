@@ -32,8 +32,8 @@ We will implement 8 diffrents machine learning algorythms:`decisiontreeRegressor
 
 ##### 4.Implementation
 * After data cleansing and features engineering, the final data set contains ~ 15799 observations and 160 variables.
-* In R, I run a stepwise selection to select only important varaiables, 94 variables out of 160 appeared to be important at predicting inflation.
-* Use a GridSearchCV to search for optimal parameters.
+* In `R`, I implemented a stepwise selection to select only important varaiables, 94 variables out of 160 appeared to be important at predicting inflation.
+* I run a GridSearchCV to search for optimal parameters.
 
 ##### 5.Results
 * Catboost regressor yielded de lowest Mean Squarred Error. 
@@ -51,6 +51,6 @@ and
 
 ![](/Images/results.png)
 
-* Features Deflation i.e. peoples who expet an Deflation and thefeature College i.e. participants that with an educationnal background equal or higher than college appear to be most usefull features at predicting inflation.
+* Features `Deflation` i.e. participants who expect a Deflation and the feature `College` i.e. participants with an educationnal background equal or higher than college appear to be most useful features at predicting inflation.
 
 ![](/Images/features-importance.png)
