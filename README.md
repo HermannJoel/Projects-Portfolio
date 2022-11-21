@@ -1,6 +1,4 @@
 #### Projects-Portfolio
-Examples of real life data machine learning projects
-
 
 #### [PROJECT 1: DECOMPOSING THE DIFFERENCE IN EXPECTED INFLATION: Project Overview](https://github.com/HermannJoel/Finance/tree/main/Inflation-Expectation-Prediction/src)
 
